@@ -15,6 +15,10 @@ public class SecuritiesServiceImpl implements SecuritiesService{
     @Autowired
     private AnnouncementMapper mapper;
 
+    /**
+     * 添加方法
+     * @param announcement
+     */
 
     @Override
     public void addsecurities(Announcement announcement) {
